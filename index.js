@@ -17,8 +17,8 @@ class route {
 blocksTravelled() {
   let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
   let verticalDistance = Math.abs(this.endingLocation.vertical - this.beginningLocation.vertical)
-    let horizontalDistance = Math.abs(eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal))
-    return verticalDistance + horizontalDistance
+  let horizontalDistance = Math.abs(eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal))
+  return verticalDistance + horizontalDistance
 }
 estimatedTime(peakHours) {
     if (peakHours) {
