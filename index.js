@@ -8,3 +8,12 @@ class Driver {
     return year - this.startDate.getFullYear()
   }
 }
+
+class route {
+  constructor(beginningLocation, endingLocation) {
+    this.beginningLocation = beginningLocation
+    this.endingLocation = endingLocation
+  }
+  
+
+}
