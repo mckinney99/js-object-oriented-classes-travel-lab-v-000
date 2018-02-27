@@ -1,5 +1,5 @@
 class Driver(){
-  constructor(name){
+  constructor(name, startDate){
     this.name = name
   }
   startDate(){
@@ -8,5 +8,5 @@ class Driver(){
 }
 
 class Route(){
-  
+
 }
