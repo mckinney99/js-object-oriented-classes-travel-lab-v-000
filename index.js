@@ -27,5 +27,4 @@ estimatedTime(peakHours) {
       return this.blocksTravelled()/3
     }
   }
-
 }
