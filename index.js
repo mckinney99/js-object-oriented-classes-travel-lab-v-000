@@ -3,10 +3,10 @@ class Driver(){
     this.name = name
   }
   startDate(){
-    new Date(year, month [, day [, hours [, minutes [, seconds [, milliseconds]]]]]);
+    Date.prototype.setDate()
   }
 }
 
 class Route(){
-  Date.prototype.setDate()
+  
 }
